@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:mobx/mobx.dart';
 import 'package:provider/provider.dart';
-import 'package:swinder/core/cache/shared/shared_pref_cache.dart';
-import 'package:swinder/core/service/Locations/location_service.dart';
-import 'package:swinder/features/HomeView/HomePageView/model/PostUser/post_user_model.dart';
+import '../../../../core/cache/shared/shared_pref_cache.dart';
+import '../../../../core/service/Locations/location_service.dart';
+import '../model/PostUser/post_user_model.dart';
 
 import '../model/FetchUser/home_page_model.dart';
 import '../service/home_page_service.dart';

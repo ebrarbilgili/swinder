@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:http/http.dart' as http;
-import 'package:swinder/features/HomeView/HomePageView/model/PostUser/post_user_model.dart';
+import '../model/PostUser/post_user_model.dart';
 import 'package:vexana/vexana.dart';
 
 import '../../../../core/cache/shared/shared_pref_cache.dart';

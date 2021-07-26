@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:mobx/mobx.dart';
-import 'package:swinder/core/model/instagram_profile_model.dart';
-import 'package:swinder/core/service/Admob/ad_manager.dart';
-import 'package:swinder/core/service/network/get_instagram_profile.dart';
-import 'package:swinder/features/HomeView/ProfilePageView/view/profile_page_view.dart';
+import '../../../core/model/instagram_profile_model.dart';
+import '../../../core/service/Admob/ad_manager.dart';
+import '../../../core/service/network/get_instagram_profile.dart';
+import '../ProfilePageView/view/profile_page_view.dart';
 
 import '../../../core/cache/shared/shared_pref_cache.dart';
 import '../HomePageView/view/home_page_view.dart';

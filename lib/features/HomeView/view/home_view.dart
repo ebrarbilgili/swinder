@@ -4,15 +4,15 @@ import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:kartal/kartal.dart';
 import 'package:provider/provider.dart';
-import 'package:swinder/core/provider/cache_provider.dart';
-import 'package:swinder/core/service/network/get_instagram_profile.dart';
-import 'package:swinder/core/widgets/BannerAdWidget/banner_ad.dart';
-import 'package:swinder/features/HomeView/HomePageView/service/home_page_service.dart';
-import 'package:swinder/features/HomeView/HomePageView/viewmodel/home_page_viewmodel.dart';
 
 import '../../../core/constants/app.dart';
+import '../../../core/provider/cache_provider.dart';
 import '../../../core/service/Locations/location_service.dart';
+import '../../../core/service/network/get_instagram_profile.dart';
+import '../../../core/widgets/BannerAdWidget/banner_ad.dart';
 import '../../../core/widgets/BottomNavigationBar/bottom_navbar.dart';
+import '../HomePageView/service/home_page_service.dart';
+import '../HomePageView/viewmodel/home_page_viewmodel.dart';
 import '../viewmodel/home_viewmodel.dart';
 
 class HomeView extends StatelessWidget {

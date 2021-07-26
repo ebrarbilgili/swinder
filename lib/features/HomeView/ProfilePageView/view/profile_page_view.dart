@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:kartal/kartal.dart';
-import 'package:swinder/core/cache/shared/shared_pref_cache.dart';
-import 'package:swinder/core/extensions/locale_extensions.dart';
-import 'package:swinder/core/lang/locale_key.g.dart';
-import 'package:swinder/features/LoginView/view/login_view.dart';
-import 'package:swinder/features/ProfileSettingsView/view/profile_settings_view.dart';
+import '../../../../core/cache/shared/shared_pref_cache.dart';
+import '../../../../core/extensions/locale_extensions.dart';
+import '../../../../core/lang/locale_key.g.dart';
+import '../../../LoginView/view/login_view.dart';
+import '../../../ProfileSettingsView/view/profile_settings_view.dart';
 
 class ProfilePageView extends StatelessWidget {
   const ProfilePageView({Key? key}) : super(key: key);

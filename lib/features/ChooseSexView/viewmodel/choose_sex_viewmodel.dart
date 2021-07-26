@@ -1,5 +1,5 @@
 import 'package:mobx/mobx.dart';
-import 'package:swinder/core/cache/shared/shared_pref_cache.dart';
+import '../../../core/cache/shared/shared_pref_cache.dart';
 
 part 'choose_sex_viewmodel.g.dart';
 

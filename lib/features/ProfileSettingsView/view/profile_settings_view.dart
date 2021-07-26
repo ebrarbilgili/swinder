@@ -2,12 +2,12 @@ import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:kartal/kartal.dart';
 import 'package:provider/provider.dart';
-import 'package:swinder/core/constants/app.dart';
-import 'package:swinder/core/extensions/locale_extensions.dart';
-import 'package:swinder/core/lang/locale_key.g.dart';
-import 'package:swinder/core/provider/cache_provider.dart';
-import 'package:swinder/features/LoginView/view/login_view.dart';
-import 'package:swinder/features/ProfileSettingsView/constants/delete_account_button.dart';
+import '../../../core/constants/app.dart';
+import '../../../core/extensions/locale_extensions.dart';
+import '../../../core/lang/locale_key.g.dart';
+import '../../../core/provider/cache_provider.dart';
+import '../../LoginView/view/login_view.dart';
+import '../constants/delete_account_button.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class ProfileSettingsView extends StatelessWidget {

@@ -3,7 +3,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:kartal/kartal.dart';
-import 'package:swinder/core/service/Admob/ad_manager.dart';
+import '../../service/Admob/ad_manager.dart';
 
 class BannerAdWidget extends StatefulWidget {
   @override
