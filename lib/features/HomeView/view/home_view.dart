@@ -6,7 +6,6 @@ import 'package:kartal/kartal.dart';
 import 'package:provider/provider.dart';
 
 import '../../../core/constants/app.dart';
-import '../../../core/provider/cache_provider.dart';
 import '../../../core/service/Locations/location_service.dart';
 import '../../../core/service/network/get_instagram_profile.dart';
 import '../../../core/widgets/BannerAdWidget/banner_ad.dart';
@@ -43,7 +42,7 @@ class HomeView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final prefs = context.watch<CacheProvider>();
+    // final prefs = context.watch<CacheProvider>();
     viewModel.saveInformations(username!, mySex!, chooseSex!);
     final address = context.read<LocationService>().currentAddress ?? '';
 
